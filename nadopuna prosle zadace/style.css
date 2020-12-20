@@ -1,0 +1,33 @@
+.frame1 img{
+    display: block;
+   width: 50%;
+   margin: 0 auto;
+   border: 1px solid black;
+}
+.frame1{
+    display: block;
+    border: 1px red solid;
+}
+
+@media(min-width: 768px){
+    div{
+        margin: 0 auto;
+        width: 720px;
+    }
+}
+
+@media(min-width: 1200px){
+    div{
+        margin: 0 auto;
+        width: 1140px;
+    }
+}
+
+@media(min-width: 1700px){
+    div{
+        margin: 0 auto;
+        width: 1540px;
+    }
+}
+
+
